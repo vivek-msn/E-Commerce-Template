@@ -28,6 +28,7 @@ body{
     overflow-x: hidden;
 }
 
+
 /* Custom CSS */
 a,
 a:hover{
@@ -48,19 +49,42 @@ p{
     background:transparent;
 }
 
-/* Navigation CSS */
 
+/* Navigation CSS */
+#header .fixed-top{
+    box-shadow: 0 0.125rem 0.675rem rgb(0 0 0 / 5%);
+}
+#header .navbar-nav .nav-item .nav-link{
+    color: var(--text-black);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link:active{
+    color: var(--text-danger);
+}
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
 
 /* Home CSS */
+
 
 
 /* Offer CSS  */
 
 
+
 /* Products CSS */
 
 
+
 /* Testimonial CSS */
+
 
 
 /* Contact CSS */
