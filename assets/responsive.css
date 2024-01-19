@@ -9,6 +9,11 @@
         transform: translate(-80%, -50%);
     }
 
+    /* Offer CSS  */
+    .offers .offer-box .offer-info .heading-bigger{
+        font-size: 3rem;
+    }
+
     /* Special CSS */
 
 }
