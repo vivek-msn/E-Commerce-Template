@@ -93,8 +93,11 @@
         font-size: 1rem;
     }
     
-    /* Special CSS */
-
+    /* Product CSS */
+    .product .up_to_content h2{
+        font-size: 0.625rem;
+    }
+    
     /* Testimonial CSS */
     
 }
